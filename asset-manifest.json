@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sapient_spacexProject/static/css/main.a2d5932e.chunk.css",
+    "main.js": "/sapient_spacexProject/static/js/main.c0be200e.chunk.js",
+    "main.js.map": "/sapient_spacexProject/static/js/main.c0be200e.chunk.js.map",
+    "runtime-main.js": "/sapient_spacexProject/static/js/runtime-main.b31bca2a.js",
+    "runtime-main.js.map": "/sapient_spacexProject/static/js/runtime-main.b31bca2a.js.map",
+    "static/js/2.f471c62c.chunk.js": "/sapient_spacexProject/static/js/2.f471c62c.chunk.js",
+    "static/js/2.f471c62c.chunk.js.map": "/sapient_spacexProject/static/js/2.f471c62c.chunk.js.map",
+    "index.html": "/sapient_spacexProject/index.html",
+    "precache-manifest.9a39e5b827ac3e3afe7f4835476b8da9.js": "/sapient_spacexProject/precache-manifest.9a39e5b827ac3e3afe7f4835476b8da9.js",
+    "service-worker.js": "/sapient_spacexProject/service-worker.js",
+    "static/css/main.a2d5932e.chunk.css.map": "/sapient_spacexProject/static/css/main.a2d5932e.chunk.css.map",
+    "static/js/2.f471c62c.chunk.js.LICENSE.txt": "/sapient_spacexProject/static/js/2.f471c62c.chunk.js.LICENSE.txt",
+    "static/media/rocket.jpg": "/sapient_spacexProject/static/media/rocket.c369cf4f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b31bca2a.js",
+    "static/js/2.f471c62c.chunk.js",
+    "static/css/main.a2d5932e.chunk.css",
+    "static/js/main.c0be200e.chunk.js"
+  ]
+}
