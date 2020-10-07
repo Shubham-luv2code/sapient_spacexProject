@@ -36,3 +36,142 @@
     transform: rotate(360deg);
   }
 }
+* {
+  box-sizing: border-box;
+}
+h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.parent-column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+.filter-column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 3%;
+}
+.card-parent-column {
+  float: left;
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+}
+.button-column {
+  float: left;
+  width: 40%;
+  padding: 10px;
+  flex: 1 0 21%;
+  margin: 10px;
+  height: auto;
+  border-radius: 10%;
+  background-color: #86ef8678;
+  cursor: pointer;
+  border: none;
+}
+.card-column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  background-color: white;
+  flex: 1 0 21%; /* explanation below */
+  margin: 10px;
+  height: auto;
+  border-radius: 3%;
+}
+.img-not-found  {
+  background-image: url("./rocket.jpg");
+  width:100%;
+  background-color: #f1efef;
+  display:block;  
+  margin:auto;
+}
+.img-width{
+  width:100%;
+  background-color: #f1efef;
+  display:block;  
+  margin:auto;
+}
+.container {
+  padding: 2px 16px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p.thick {
+  font-weight: bold;
+}
+p.launch-name{
+  font-weight: bold;
+  color: #3c3ca2;
+  font-family: revert;
+}
+p.filter-header{
+  text-align: center;
+}
+div.details{
+  display: flex;
+}
+div.button-container{
+  display: inline-block;
+}
+
+
+/* Mobile View */
+@media screen and (max-width: 700px) {
+  [class*='card-parent-column']{
+    width: 100%;
+  }
+  [class*='card-column']{
+    width: 100%;
+  }
+  [class*='button-column']{
+    width: 30%;
+    margin: 20px;
+  }
+  [class*='filter-column']{
+    width: 100%;
+  }
+}
+/* Tablet View */
+@media screen and (max-width: 1024px) and (min-width: 700px) {
+  [class*='card-parent-column']{
+    width: 100%;
+    display: contents;
+  }
+  [class*='card-column']{
+    width: 45%;
+    margin: 15px;
+  }
+  [class*='button-column']{
+    width: 45%;
+    margin: 15px;
+  }
+  [class*='filter-column']{
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #root{
+    align-items: center;
+  }
+}
+
+.button-column:focus{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
