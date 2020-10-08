@@ -15,11 +15,11 @@ Tech Stack used in application -
 7. React Hooks
 8. Media Queries
 
-Application is deployed at -
+Application is published at https://shubham-luv2code.github.io/sapient_spacexProject/
 
-https://shubham-luv2code.github.io/v3/launches?limit=100
 
 Desktop View-
+
 Tablet View-
 Mobile View-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
