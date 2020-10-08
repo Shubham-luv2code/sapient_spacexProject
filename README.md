@@ -1,3 +1,27 @@
+To run project in local workspace, follow below steps-
+1. Clone the repo --> git clone https://github.com/Shubham-luv2code/sapient_spacexProject.git
+2. move to my-app directory --> cd my-app
+3. Install all the package dependencies --> npm install
+4. Run the UI and express server by single command --> npm run app
+5. For running test cases --> npm run test
+
+Tech Stack used in application -
+1. ReactJS
+2. Functional Component
+3. BrowserRouter
+4. Express JS
+5. Server Side Rendering
+6. Jest/Jasmine for Unit test cases
+7. React Hooks
+8. Media Queries
+
+Application is deployed at -
+
+https://shubham-luv2code.github.io/v3/launches?limit=100
+
+Desktop View-
+Tablet View-
+Mobile View-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
