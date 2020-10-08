@@ -19,9 +19,16 @@ Application is published at https://shubham-luv2code.github.io/sapient_spacexPro
 
 
 Desktop View-
+![image](https://user-images.githubusercontent.com/65558868/95471011-1283a700-099f-11eb-844a-eba09cfbad4e.png)
 
 Tablet View-
+![image](https://user-images.githubusercontent.com/65558868/95471354-79a15b80-099f-11eb-902d-3c324ef75d41.png)
+![image](https://user-images.githubusercontent.com/65558868/95471769-ed436880-099f-11eb-9587-96c82f98886d.png)
+
 Mobile View-
+![image](https://user-images.githubusercontent.com/65558868/95471536-ab1a2700-099f-11eb-8896-68f00c9fb309.png)
+![image](https://user-images.githubusercontent.com/65558868/95471649-cab14f80-099f-11eb-85c8-ee924c5321db.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
